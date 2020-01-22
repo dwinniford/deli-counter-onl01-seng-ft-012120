@@ -1,3 +1,5 @@
 def line(restaurant)
-  puts "The line is currently empty."
+  if restaurant.size == 0 
+    puts "The line is currently empty."
+  end 
 end 
